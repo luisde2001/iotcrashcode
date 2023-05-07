@@ -24,7 +24,7 @@ def main():
 
     while True:
         generate_random_temperature(sensor_data)
-        with open('./mocksensor/ouput_mock_sensor.json', 'a') as output_file:
+        with open('/tmp/ouput_mock_sensor.json', 'a') as output_file:
             output_file.write(f'{json.dumps(sensor_data)}\n')
         time.sleep(0.5)
 
