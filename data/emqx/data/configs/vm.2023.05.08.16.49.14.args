@@ -120,4 +120,4 @@
 -pa /opt/emqx/releases/4.4.3/consolidated
 -env ERL_CRASH_DUMP log/crash.dump
 -setcookie emqxsecretcookie
--name 6cace8a655a0@172.18.0.2
+-name 6cace8a655a0@172.18.0.4
