@@ -4,3 +4,19 @@ services:
     build: mocksensor #Donde está el Dockerfile
     volumes:
       - ./data/mocksensor:/tmp/
+  emqx:
+    user: root
+    image: "emqx:4.4.3"
+    ports:
+    - "18083:18083" 
+    volumes:
+      - ./data/emqx/data:/opt/emqx/data
+      - ./data/emqx/log:/opt/emqx/log
+    environment:
+      - EMQX_DASHBOARD__DEFAULT_USER__LOGIN=luisde2001
+      - EMQX_DASHBOARD__DEFAULT_USER__PASSWORD=geled1
+  telegrafinput:
+    image: "telegraf:1.22.4"
+    volumes:
+      - ./data/telegrafinput/telegraf.conf:/etc/telegraf/telegraf.conf
+      - ./data/mocksensor:/tmp/mocksensor
