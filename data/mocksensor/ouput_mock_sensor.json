@@ -2226,3 +2226,6 @@
 {"device_id": "e2e78334", "client_id": "c03d5155", "sensor_type": "Temperature", "temperature": 24.00800995657293, "timestamp": 1683564771.6455867}
 {"device_id": "e2e78334", "client_id": "c03d5155", "sensor_type": "Temperature", "temperature": 23.745065438262372, "timestamp": 1683564772.1466}
 {"device_id": "e2e78334", "client_id": "c03d5155", "sensor_type": "Temperature", "temperature": 23.406884606407065, "timestamp": 1683564772.6476517}
+{"device_id": "e2e78334", "client_id": "c03d5155", "sensor_type": "Temperature", "temperature": 23.8807367492908, "timestamp": 1683564773.1486537}
+{"device_id": "e2e78334", "client_id": "c03d5155", "sensor_type": "Temperature", "temperature": 23.92878566843379, "timestamp": 1683564773.6494045}
+{"device_id": "e2e78334", "client_id": "c03d5155", "sensor_type": "Temperature", "temperature": 24.414270647425322, "timestamp": 1683564774.150362}
